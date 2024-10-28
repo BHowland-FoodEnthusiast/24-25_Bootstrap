@@ -14,7 +14,7 @@
   </style>
 </head>
 <body>
-<div class="container">
+<div class="container pb-4">
   <div class="container">
     <h2> Borders</h2>
     <p>Use the border classes to add or remove borders from an element:</p>
@@ -94,9 +94,55 @@
     <div class="w-75 bg-warning">Width 75%</div>
     <div class="w-auto bg-warning">Auto width</div>
     <div class="mw-100 bg-warning">Max Width 100%</div>
-
   </div>
 
+  <div class="container">
+    <h2>Height Utilities</h2>
+    <p>Set the height of an element with the h-*</p>
+    <div style="height:200px; background-color: #ddd">
+      <div class="h-25 d-inline-block bg-warning">Height 25%</div>
+      <div class="h-50 d-inline-block bg-warning">Height 50%</div>
+      <div class="h-75 d-inline-block bg-warning">Height 75%</div>
+      <div class="h-100 d-inline-block bg-warning">Height 100%</div>
+      <div class="h-auto d-inline-block bg-warning">Auto Height</div>
+      <div class="mh-100 d-inline-block bg-warning" style="height: 500px">Max Height</div>
+
+    </div>
+  </div>
+  <div class="container">Spacing utilities
+  <p>Set the spacing with {property}{Sides}-{breakpoint}-{size} classes.</p>
+  Omit breakpoint if desired for screen sizes
+  <div class="pt-4 bg-warning">I only want to have a top padding (1.5rem)</div>
+  <div class="p-4 bg-success">Padding on all sides (3rem)</div>
+  <div class="m-5 bg-warning">0 have a margin on all sides</div>
+  <div class="m-5 pb-5 bg-warning">0 have a margin on all sides and bottom padding</div>
+  </div>
+
+
+  <div class="container pb-4 bg-light">
+    <h2>Shadows - Enter the abyss...</h2>
+    <div class="shadow-none p-4 mb-4 bg-light">No Shadow</div>
+    <div class="shadow-sm p-4 mb-4 bg-white">Small Shadow</div>
+    <div class="shadow p-4 mb-4 bg-white">Shadow</div>
+    <div class="shadow-lg p-4 mb-4 bg-white">Large Shadow</div>
+  </div>
+  <div class="container">
+    <h2>Opacity Text Colors</h2>
+    <p>Add 50% opacity for b/w text with .text-black.50 or .text-white.50</p>
+    <p class="text-black-50 bg-white">Black text with 50% opacity on white background.</p>
+    <p class="text-white-50 bg-dark">White text with 50% opacity on a black background.</p>
+  </div>
+<div class="container">
+  <h2>Vertical alignment</h2>
+  <P>Change the alignment of elements with align classes</P>
+  <span class="align-baseline">Baseline</span>
+  <span class="align-top">top</span>
+  <span class="align-middle">middle</span>
+  <span class="align-bottom">bottom</span>
+  <span class="align-text-top">text-top</span>
+  <span class="align-text-bottom">text-bottom</span>
+
+</div>
 </div>
 
 
